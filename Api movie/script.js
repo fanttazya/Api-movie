@@ -5,7 +5,7 @@ const btnSiguiente = document.getElementById("btnSiguiente");
 btnSiguiente.addEventListener("click", () => {
 	if(pagina < 1000){
 	pagina += 1;
-	optenerPeliculas();
+	optenerPelicu090909090las();
 	}
 })
 btnSiguiente.addEventListener("click", () => {
