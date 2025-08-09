@@ -8,7 +8,12 @@ btnSiguiente.addEventListener("click", () => {
 	optenerPeliculas();
 	}
 })
-
+btnSiguiente.addEventListener("click", () => {
+	if(pagina < 1000){
+	pagina += 1;
+	optenerPeliculas();
+	}
+})
 btnAnterior.addEventListener("click", () => {
 	if(pagina > 1){
 	pagina -= 1;
